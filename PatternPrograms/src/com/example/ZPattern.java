@@ -1,0 +1,30 @@
+package com.example;
+
+import java.util.Scanner;
+
+public class ZPattern {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value of N:");
+		int n = sc.nextInt();
+		printZPattern(n);
+		sc.close();
+
+	}
+	private static void printZPattern(int n) {
+		
+		for(int i =1;i<=n;i++) {
+			for(int j=1;j<=n;j++) {
+				if(i==1 || i==n || i+j==n+1) {
+				System.out.print("*"+" ");
+				}else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+			
+	}
+
+}

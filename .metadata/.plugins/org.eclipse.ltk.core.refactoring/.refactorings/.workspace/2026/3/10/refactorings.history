@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Loop&apos; to &apos;ForLoop&apos;" description="Rename resource &apos;Loop&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Loop" name="ForLoop" stamp="1772536667093" updateReferences="true"/>
+</session>
