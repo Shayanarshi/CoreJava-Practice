@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.examole&apos; to &apos;com.example&apos;&#x0D;&#x0A;- Original project: &apos;HelloWorldApp&apos;&#x0D;&#x0A;- Original element: &apos;HelloWorldApp/src/com.examole&apos;&#x0D;&#x0A;- Renamed element: &apos;HelloWorldApp/src/com.example&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.examole&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.examole" name="com.example" qualified="false" references="true" stamp="1757261158239" textual="false" version="1.0"/>
-</session>
