@@ -11,7 +11,6 @@ This repository contains my structured practice of Core Java concepts, covering 
 * **patterns** → Pattern printing problems
 * **recursion** → Recursion-based programs
 * **mini-apps** → Small real-world applications
-* **tcs-questions** → TCS NQT & placement questions
 
 ---
 
