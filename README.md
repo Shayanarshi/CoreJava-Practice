@@ -38,27 +38,6 @@ This repository contains my structured practice of Core Java concepts, problem-s
 * Practice object-oriented programming concepts
 * Prepare for coding interviews and placements
 
----
-
-# 📈 Progress
-
-✔ Regular coding practice
-✔ Topic-wise structured learning
-✔ Hands-on Java problem solving
-✔ Continuous repository updates
-
----
-
-# 🚀 Future Improvements
-
-* Add Collections Framework programs
-* Add Stream API examples
-* Add JDBC and File Handling examples
-* Improve project documentation
-* Add more interview-based coding problems
-
----
-
 # 👨‍💻 Author
 
 **Shayan Arshi**
