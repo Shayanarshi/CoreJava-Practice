@@ -43,5 +43,4 @@ public class BinarySerach {
 		}
 		return false;
 	}
-
 }

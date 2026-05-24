@@ -12,7 +12,7 @@ public class Addition {
         int b = sc.nextInt();
 
         int c = a + b;
-        System.out.println("The Addition of a and b is:" +c);
+        System.out.println("The Addition of a and b is : " +c);
         sc.close();
     }
 }

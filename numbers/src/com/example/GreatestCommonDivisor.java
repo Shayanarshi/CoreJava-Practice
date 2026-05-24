@@ -16,7 +16,7 @@ public class GreatestCommonDivisor {
 	}
 	private static int greatestCommonDivisor(int num1, int num2 ) {
 		// using for loop
-		/*int gcd = 1;
+		/* int gcd = 1;
 		int temp =0;
 		
 		if(num1> num2) {

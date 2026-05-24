@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.Scanner;
 
-public class LeapYear {
+public class LeapYearUsingTernaray {
 
 	public static void main(String[] args) {
 	

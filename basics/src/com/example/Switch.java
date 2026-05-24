@@ -4,7 +4,7 @@ public class Switch {
     public static void main(String[] args) {
         String uname= "admin";
         switch(uname) {
-            case "Admin" : System.out.println("You are admin");
+            case "Admin" : System.out.println("You are an admin");
                 break;
             case "guest" : System.out.println("You Are guest");
                 break;

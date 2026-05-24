@@ -1,6 +1,6 @@
 package com.example;
 import java.util.Scanner;
-public class DecinamToBinary {
+public class DecimalToBinary {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

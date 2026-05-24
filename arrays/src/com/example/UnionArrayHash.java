@@ -4,7 +4,8 @@ import java.util.Scanner;
 import java.util.LinkedHashSet;
 import java.util.Arrays;
 
-public class UnionArrayHash {
+public class
+UnionArrayHash {
 
 	public static void main(String[] args) {
 		

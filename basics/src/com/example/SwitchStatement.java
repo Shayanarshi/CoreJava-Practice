@@ -31,7 +31,7 @@ public class SwitchStatement {
             case 7:
                 System.out.println("Sunday");
 
-            default : System.out.println(" out of range");
+            default :System.out.println("out of range");
         }
         sc.close();
     }

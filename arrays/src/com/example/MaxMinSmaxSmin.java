@@ -16,16 +16,20 @@ public class MaxMinSmaxSmin {
 			arr[i] = sc.nextInt();	
 		}
 		Arrays.sort(arr);
+		int result []= new int[size];
 		int left = 0;
 		int right = arr.length-1;
+		int k =0;
 		while (left<=right) {
 			if(left != right) {
-				System.out.print(arr[right--]);
-				System.out.print(arr[left++]);	
+				result[k++]=arr[right--];
+				result[k++] = arr[left++];
 			}else {
-				System.out.print(arr[left++]);
+				result[k++] = arr[left++];
 			}
 		}
+		System.out.println("Output Array:");
+		System.out.println(Arrays.toString(result));
 		sc.close();
 		
 	}
