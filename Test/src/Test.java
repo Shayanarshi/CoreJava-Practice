@@ -31,7 +31,7 @@ public class Test {
         Account  ac1 = new Account();
         ac1.accountNumber = 1001;
         ac1.balance = 5000;
-        ac1.deposit(2000);          
+        ac1.deposit(2000);
         System.out.println("Balance after depositing: " + ac1.fetchBalance());
     }
 }
