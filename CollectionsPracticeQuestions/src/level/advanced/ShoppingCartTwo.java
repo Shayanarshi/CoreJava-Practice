@@ -1,0 +1,18 @@
+package level.advanced;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class ShoppingCartTwo {
+    public static void main(String[] args) {
+        List<Double> list = new ArrayList<>(Arrays.asList(80.0, 200.0, 600.0, 1200.0, 50.0, 900.0));
+
+        list.replaceAll(price->  price>500 ? price*.9: price);
+
+        System.out.println("Price  After 10% discount on items > 500:" +list);
+        list.removeIf(alexa-> alexa<100);
+        System.out.println("After removing items < 100:" +list);
+
+    }
+}

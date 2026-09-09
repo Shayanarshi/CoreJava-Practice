@@ -6,7 +6,7 @@ class A{
 class B extends A{
 
     B(){
-        super();
+//        super();
         System.out.println("B");
     }
 

@@ -10,6 +10,8 @@ public class SwitchStatement {
         int day = sc.nextInt();
         switch(day) {
 
+
+
             case 1:
                 System.out.println("Monday");
                 break;

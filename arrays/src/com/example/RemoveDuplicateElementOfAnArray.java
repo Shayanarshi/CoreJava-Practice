@@ -10,7 +10,7 @@ public class RemoveDuplicateElementOfAnArray {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of Element of an Array");
 		int size = sc.nextInt();
-		int arr[] = new int [size];
+		int arr[] = new int [size]; 
 		
 		System.out.println("Enter the elements of an Array");
 		for (int i =0; i<size;i++) {

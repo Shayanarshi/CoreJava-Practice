@@ -9,7 +9,6 @@ public class BubbleSort {
 		System.out.println("Enter the Number of Elements");
 		int size = sc.nextInt();
 		int arr[] = new int[size];
-		
 		System.out.println("Enter the Elements of an Array");
 		for (int i =0; i<size;i++) {
 			arr[i] = sc.nextInt();
