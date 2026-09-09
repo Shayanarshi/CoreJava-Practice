@@ -6,7 +6,7 @@ public class SumOfEvenOddPosition {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Size of an Array you want:");
 		int size = sc.nextInt();
-		int arr[] = new int[size];
+		int []arr = new int[size];
 
 
 		System.out.println("Enter the Elements of an Array:");
@@ -16,7 +16,7 @@ public class SumOfEvenOddPosition {
 		sumOfEvenOddPosition(size, arr);
 		sc.close();
 	}
-	private static void sumOfEvenOddPosition(int size, int arr[]) {
+	private static void sumOfEvenOddPosition(int size, int [] arr) {
 		
 		int evenPosition = 0;
 		int oddPosition =0;

@@ -10,7 +10,7 @@ public class RemoveDuplicateElementOfAnArray {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of Element of an Array");
 		int size = sc.nextInt();
-		int arr[] = new int [size]; 
+		int  [] arr = new int [size];
 		
 		System.out.println("Enter the elements of an Array");
 		for (int i =0; i<size;i++) {
@@ -23,13 +23,14 @@ public class RemoveDuplicateElementOfAnArray {
 		System.out.println(Arrays.toString(result));
 		sc.close();	
 	}
-	private static int [] removeDuplicateElementOfAnArray(int arr[]) {
+	private static int [] removeDuplicateElementOfAnArray(int [] arr) {
 		
 		int [] brr = new int [arr.length];
 		brr[0] = arr[0]; // copy first element as it is 
 		int index =1;
 		// check for duplicate
-		for (int i =0; i<arr.length;i++) {
+
+		for(int i =0; i<arr.length;i++) {
 			boolean flag = false;
 			for(int j =0; j<index;j++) {
 				if(brr[j] == arr[i]) {
@@ -38,14 +39,14 @@ public class RemoveDuplicateElementOfAnArray {
 				}
 			}
 			// distinct 
-			if(flag == false) {
+			if(!flag) {
 				brr[index] =arr[i];
 				index++;
 			}
 		} 
 		// printing results
 		int[] result = new int[index];
-        for (int i = 0; i < index; i++) {
+        for(int i = 0; i < index; i++) {
             result[i] = brr[i];
         }
 		return result;
